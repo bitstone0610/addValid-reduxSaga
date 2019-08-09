@@ -1,0 +1,10 @@
+.select-box select{
+  background-color: transparent;
+  outline:none;
+  border: none;
+  width: 8rem;
+}
+
+.select-box option{
+  font-size: 0.8rem;
+}

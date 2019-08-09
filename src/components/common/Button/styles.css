@@ -1,0 +1,41 @@
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #61c998;
+  height: 2.3rem;
+}
+
+.btn-container:hover {
+  cursor: pointer;
+}
+
+.btn-container span{
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .btn-container {
+    padding: 0 .8rem;
+    height: 2rem;
+  }
+  
+  .btn-container span{
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .btn-container {
+    padding: 0 .7rem;
+    height: 1.8rem;
+  }
+
+  .btn-container span{
+    font-size: .8rem;
+  }
+}

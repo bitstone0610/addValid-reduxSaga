@@ -1,0 +1,41 @@
+.creative-card-detail{
+  padding: 1rem 2rem;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: lightgray;
+  background-color: #fcfcfc;
+}
+
+.creative-card-detail table{
+  text-align: left;
+  font-size: .8rem;
+  width: 100%;
+}
+
+.creative-card-detail table tr {
+  height: 1.5rem;
+}
+
+.creative-card-detail table tr:first-child{
+ height: 2rem;
+}
+
+.creative-card-detail table tr:first-child th:first-child{
+  visibility: hidden;
+  width: 3rem;
+}
+.creative-card-detail table tr td:first-child img{
+  width: .6rem;
+  height: .6rem;
+}
+.creative-card-detail table tr td:last-child{
+  text-align: right;
+}
+
+.creative-card-detail table tr:last-child{
+  height: 3rem;
+}
+
+.creative-card-detail table tr:last-child td{
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.filter-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.filter-box img{
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.filter-box input {
+  border: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+}
+
+.filter-box input:focus {
+  outline:none;
+}
+

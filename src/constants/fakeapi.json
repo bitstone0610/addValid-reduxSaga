@@ -1,0 +1,24 @@
+{
+  "data": {
+    "campaigns": [
+      {
+        "id": "012ade02-75ef-45be-8e96-cf0957354402",
+        "campaignName": "campaign No.1",
+        "userName": "Jesper",
+        "date": "21 Apr 2017"
+      },
+      {
+        "id": "012ade02-75ef-45be-8e96-cf0957354403",
+        "campaignName": "campaign No.2",
+        "userName": "Jesper",
+        "date": "22 Apr 2017"
+      },
+      {
+        "id": "012ade02-75ef-45be-8e96-cf0957354404",
+        "campaignName": "campaign No.3",
+        "userName": "Jesper",
+        "date": "23 Apr 2017"
+      }
+    ]
+  }
+}

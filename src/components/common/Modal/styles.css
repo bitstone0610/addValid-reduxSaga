@@ -1,0 +1,84 @@
+#modal{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: #fff;
+}
+
+#modal .modal-header{
+  text-align: right;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+
+#modal .modal-header .close-btn{
+  display: inline-block;
+}
+
+#modal .modal-form {
+  max-width: 25rem;
+  padding: 0 1rem;
+  height: 30rem;
+  margin: 10rem auto;
+}
+
+#modal .campaign-name-field {
+  margin-top: 2rem;
+}
+
+#modal .campaign-name-field input {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  background-color: transparent;
+  font-size: .8rem;
+  padding: .5rem;
+  width: 100%;
+}
+
+#modal .campaign-name-field input:focus {
+  outline: none;
+}
+
+#modal .campaign-option-field {
+  padding: .4rem .5rem;
+  margin-top: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+#modal .campaign-option-field select {
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-size: .8rem;
+  width: 100%;
+}
+
+#modal .campaign-option-field select:focus {
+  outline: none;
+}
+
+#modal .button-field {
+  margin-top: 1rem;
+}
+
+#modal .button-field input {
+  width: 100%;
+  background-color: lightgray;
+  padding: 1rem 0;
+}
+
+.modal-open{
+  display: block;
+}
+
+.modal-close{
+  display: none;
+}
